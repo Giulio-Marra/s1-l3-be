@@ -1,13 +1,20 @@
 package entities;
 
 public class Rectangle {
+
+    //ATTRIBBUTI
+
     public int altezza;
     public int larghezza;
+
+    //COSTRUTTORI
 
     public Rectangle(int altezza, int larghezza) {
         this.altezza = altezza;
         this.larghezza = larghezza;
     }
+
+    //METODI
 
     public static void stampaDueRettangoli(Rectangle rettangolo1, Rectangle rettangolo2) {
         rettangolo1.stampaRettangolo();

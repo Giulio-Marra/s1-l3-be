@@ -1,6 +1,5 @@
 package entities;
 
-import java.util.ArrayList;
 import java.util.Random;
 
 public class Sim {
@@ -12,13 +11,12 @@ public class Sim {
     private int ultimeChiamate;
 
 
-
-    public  Sim(){
+    public Sim() {
         Random id = new Random();
-        this.id = id.nextInt(100,1000);
+        this.id = id.nextInt(100, 1000);
         this.numero = 335789632;
         this.credito = 5;
-        this.ultimeChiamate = []
+        this.ultimeChiamate = 0;
     }
 
     public Sim(long numero) {

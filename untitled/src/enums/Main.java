@@ -1,7 +1,6 @@
 package enums;
 
 import entities.Rectangle;
-import entities.Sim;
 
 public class Main {
     public static void main(String[] args) {
@@ -11,10 +10,6 @@ public class Main {
         rettangolo2.stampaRettangolo();
 
         Rectangle.stampaDueRettangoli(rettangolo1, rettangolo2);
-
-
-        Sim sim1 = new Sim(338751265);
-        sim1.mostraDatiSim();
 
 
     }
